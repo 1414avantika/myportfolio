@@ -1,0 +1,748 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avantika's- Resume</title>
+  <style>
+
+     *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+.context h1{
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+}
+
+
+.area{
+    background:black;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height:100vh;
+
+
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+        /* Google Font*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+/* Header */
+.top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: black;
+}
+.top .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.top .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.top .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.top .navbar a:hover{
+  border-bottom: 2px solid rgb(255, 69, 100);
+  color: grey;
+}
+.top .navbar a:active{
+  border-bottom: 2px solid yellowgreen;
+  color: grey;
+}
+
+
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+
+}
+.home{
+  display: flex;
+
+}
+.home .max-width{
+  width: 500%;
+  display: flex;
+}
+.home .home-content{
+  width: 1000%;
+  padding: 2rem;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+    /* body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: white;
+    } */
+    .table{
+        width:50%;
+        alignment:right;
+    }
+    h1 {
+      margin-bottom: 5px;
+      color:grey;
+    }
+    h2 {
+      margin-bottom: 5px;
+      color:white;
+      border-bottom: 2px solid rgb(255, 69, 100);
+      position: relative;
+      display: inline-block;
+    }
+    p {
+      margin: 0;
+      color: white;
+    }
+    .sections {
+      margin-bottom: 25px;
+
+    }
+    .section {
+      margin-bottom: 25px;
+
+    }
+
+    .dates {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+
+    }
+    .institution {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+    .degree {
+      font-style: italic;
+      color:white;
+    }
+    .projects, .internship, .skills, .achievements, .experience, .certificates, .languages, .interests {
+      margin-left: 20px;
+      color:white;
+    }
+    .projects ul, .achievements, .certificates ul, .languages ul, .interests ul {
+      padding-left: 20px;
+      color:white;
+    }
+
+    .experience {
+      border-left: 3px solid rgb(255, 69, 100);
+      padding-left: 15px;
+      color:white;
+    }
+    .certificates ul li, .languages ul li {
+      list-style-type: none;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color:white;
+    }
+    .cyan{
+        color: rgb(255, 69, 100);
+    }
+
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    background:black;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height:100vh;
+
+
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+        /* Google Font*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color:black;
+  z-index: -1;
+}
+
+
+
+
+/* Header */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.header .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.header .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.header .navbar a:hover{
+  border-bottom: 2px solid rgb(255, 69, 100);
+  color: grey;
+}
+.header .navbar a:active{
+  border-bottom: 2px solid yellowgreen;
+  color: grey;
+}
+.btn:hover{
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+}
+.home{
+  display: flex;
+
+}
+.home .max-width{
+  width: 500%;
+  display: flex;
+}
+.home .home-content{
+  width: 1000%;
+  padding: 2rem;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+  </style>
+</head>
+<body>
+
+  <header class="top">
+    <a href="#" class="logo">
+        <i class="fas fa-dumbbell"></i>PORTFOLIO
+    </a>
+    <nav class="navbar">
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/resume">Resume</a>
+        <a href="/services">Services</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/contact">Contact</a>
+
+
+    </nav>
+    </header>
+
+
+
+
+  <table border="1" style="margin-top: 99px;">
+<td>
+  <div class="sections">
+    <h1>My RESUME</h1>
+    <p>Email: bhaleraoavantika111@gmail.com | Phone:9146297907 | Location: Pune, India</p>
+  </div>
+
+
+
+  <div class="section">
+    <h2>EDUCATION</h2>
+    <div class="dates">05/2019 - 05/2023</div>
+    <div class="institution"><span class="cyan">Bachelor of Engineering</span>, Jayawantrao Sawant College of Engineering</div>
+    <p>Pune | Percentage: 85% </p>
+    <div class="dates">05/2017 - 05/2018</div>
+    <div class="institution"><span class="cyan">HSC</span>, Arts, Commerce, Science Jr. College Loni Kalbhor</div>
+    <p>Pune | Percentage: 60%</p>
+    <div class="dates">03/2015 - 03/2016</div>
+    <div class="institution"><span class="cyan">SSC</span>, Kanyaprashala Loni Kalbhor</div>
+    <p>Pune | Percentage: 93.60%</p>
+  </div>
+
+  <div class="section">
+    <h2>PERSONAL PROJECTS</h2>
+    <div class="projects">
+      <h3><span class="cyan">Performance Enhancement of Air Handling Unit Using Desiccant Wheel</span></Performance></h3>
+      <p>04/2022 - 02/2023</p>
+      <ul>
+        <li>Minimized power consumption by utilizing Condenser heat recovery</li>
+        <li>Developed a simplified payroll software for businesses in India</li>
+        <li>Implemented attendance collection using attendance machine and automated salary generation</li>
+      </ul>
+    </div>
+    <div class="projects">
+      <h3><span class="cyan">Simplified payroll software for every business in India</span></h3>
+      <p>(05/2022 - 2-2023)</p>
+      <ul>
+        <li>Our customers had smooth transitions, sweeping impacts</li>
+        <li>Collect attendance using attendance Machine</li>
+        <li>Auto Salary generation at the end of month</li>
+      </ul>
+    </div>
+    <div class="projects">
+        <h3><span class="cyan">GYM Web Application</span></h3>
+        <p>02/2023 - 02/2023</p><br>
+        <p>In this project, I utilized HTML, CSS, and JavaScript to create an engaging and responsive user interface, while leveraging Django architecture for efficient development and separation of concerns.</p>
+      </div>
+  </div>
+
+  <div class="section">
+    <h2>INTERNSHIP</h2>
+    <div class="dates">01/2022 - 03/2022</div>
+    <div class="institution"><span class="cyan">Student Intern, TechnoLearn Trainings</span></div>
+    <p>Swargate, Hadapsar</p>
+    <p>TechnoLearn Trainings is an institute of IT Training & Placement Services founded in 2014.</p>
+    <ul>
+      <li>Learned to develop a front web page using HTML</li>
+      <li>Learned to design web pages using CSS</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>SKILLS</h2>
+    <ul class="skills">
+      <li>Python Programming</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Problem Solving</li>
+      <li>Django</li>
+      <li>DBMS</li>
+      <li>Object-Oriented Programming (OOP)</li>
+      <li>Web Development</li>
+      <li>Web Architecture</li>
+      <li> Full Stack developer</li>
+    </ul>
+   <!-- <div class="area" > -->
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  </div >
+  </div>
+</td>
+<td class="table" alignment="left" style="
+    border-left-width: 60px;
+">
+
+  <div class="section">
+    <h2>ACHIEVEMENTS</h2>
+    <ul class="achievements">
+      <li>On The Spot Speech Competition - 1st Rank</li>
+      <li>Project Idea Presentation - 3rd Rank</li>
+      <li>Best Experimental Work On Project Setup - 1st Rank</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>EXPERIENCE</h2>
+    <div class="experience">
+      <div class="dates">08/2022 - 02/2023</div>
+      <div class="institution"><span class="cyan">MESA (Art and Culture)</span></div>
+      <p>Team Member</p>
+      <div class="dates">04/2023 - 05/2023</div>
+      <div class="institution"><span class="cyan">Python Programming Instructor at JSPM's JSCOE, Pune</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>CERTIFICATES</h2>
+    <ul class="certificates">
+      <li>Front End Development - 11/2021 - 04/2022</li>
+      <li>Web Development - 03/2022 - 05/2022</li>
+      <li>Python Programming - 11/2022 - 02/2023</li>
+      <li>AutoCAD - 09/2020 - 01/2021</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>LANGUAGES</h2>
+    <ul class="languages">
+      <li>Marathi - Native or Bilingual Proficiency</li>
+      <li>Hindi - Native or Bilingual Proficiency</li>
+      <li>English - Professional Working Proficiency</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>INTERESTS</h2>
+    <ul class="interests">
+      <li>Writing</li>
+      <li>Reading books</li>
+      <li>Singing</li>
+      <li>Gardening</li>
+      <li>Travelling</li>
+      <li>Mehandi arts</li>
+    </ul>
+  </div>
+
+
+</header>
+
+
+</td>
+
+
+</body>
+</html>

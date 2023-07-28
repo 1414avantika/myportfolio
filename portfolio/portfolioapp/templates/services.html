@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+{% load static  %}
+
+<html>
+<head>
+
+    <title>Avantika's Portfolio </title>
+    <style>
+        /* Google Font*/
+
+
+        *{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color:black;
+  z-index: -1;
+}
+
+
+
+
+/* Header */
+.top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: #010409;
+}
+.top .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.top .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.top .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.top .navbar a:hover{
+  border-bottom: 2px solid rgb(255, 69, 100);
+  color: grey;
+}
+.top .navbar a:active{
+  border-bottom: 2px solid yellowgreen;
+  color: grey;
+}
+
+
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+
+}
+.home{
+  display: flex;
+
+}
+.home .max-width{
+  width: 500%;
+  display: flex;
+}
+.home .home-content{
+  width: 1000%;
+  padding: 2rem;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+    </style>
+    <!-- Font Awesome Iocns cdn link -->
+    <link rel="shortcut icon" href="C:\Users\Avantika\Downloads\logo-nav.png">
+</head>
+<body>
+    <header class="top">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>PORTFOLIO
+        </a>
+        <nav class="navbar">
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/resume">Resume</a>
+            <a href="/services">Services</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/contact">Contact</a>
+
+        </nav>
+    </header>
+    </body>
+    </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <header>
+  <title>Portfolio Services</title>
+  </header>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: black;
+    }
+    header {
+
+      color: grey;
+      text-align: ;
+
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .service {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+
+    }
+    p {
+      margin: 0;
+      font-size: 18px;
+      margin-left: 20px;
+    }
+    .service-icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .service-description {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .service:hover{
+        background-color: rgb(255, 69, 100);
+    }
+  </style>
+</head>
+<body>
+  <header style="
+  margin-top: 72px;
+">
+    <h1>Portfolio Services</h1>
+    <p>Explore my offerings to help you succeed</p>
+  </header>
+
+  <div class="container">
+    <div class="service">
+      <h2>Web Development</h2>
+      <span class="service-icon">🚀</span>
+      <p class="service-description">Transform your ideas into fully functional websites. Whether you need a simple portfolio site or a complex web application, I can create responsive and visually appealing designs using the latest web technologies.</p>
+    </div>
+
+    <div class="service">
+      <h2>Database Connectivity</h2>
+      <span class="service-icon">🎨</span>
+      <p class="service-description">Database connectivity expert with Django. Seamless integration of SQL and NoSQL databases. Emphasis on data security, real-time processing, and scalability. Optimize application performance and user experience..</p>
+    </div>
+
+    <div class="service">
+      <h2>Mobile App Development</h2>
+      <span class="service-icon">📱</span>
+      <p class="service-description">Reach your audience on-the-go with native or cross-platform mobile app solutions. From concept to deployment, I focus on delivering high-performance and user-friendly mobile applications.</p>
+    </div>
+
+    <div class="service">
+      <h2>Frontend & Backend Integration</h2>
+      <span class="service-icon">🔗</span>
+      <p class="service-description">Seamlessly integrate frontend interfaces with backend systems for dynamic data-driven applications. I have expertise in various backend technologies and RESTful API development.</p>
+    </div>
+
+    <div class="service">
+      <h2>Responsive Design</h2>
+      <span class="service-icon">📱💻🖥️</span>
+      <p class="service-description">Ensure your website or application looks great and functions well across all devices and screen sizes. I prioritize responsive design to provide users with a consistent and optimized experience on every platform.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+
+      color: #333;
+      background-color: transparent;
+    }
+    header {
+      background-color: rgb(255, 69, 100);
+      color: transparent
+
+
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      text-align:center;
+      padding: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-align:center;
+      color: white
+
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+    th {
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    .project-info {
+      background-color:black;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      color: white;
+    }
+    .project-name {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    .project-description {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .github-link {
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .github-link a {
+      background-color:rgb(255, 69, 100);
+      color: black;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .github-link a:hover {
+      background-color:grey;
+    }
+    .span{
+        border-bottom: 2px solid rgb(255, 69, 100);
+    }
+
+
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color:black;
+      color: white;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color:grey;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    background:black;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height:100vh;
+
+
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+        /* Google Font*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* Header */
+.top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: black;
+}
+.top .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.top .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.top .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.top .navbar a:hover{
+  border-bottom: 2px solid rgb(255, 69, 100);
+  color: grey;
+}
+.top .navbar a:active{
+  border-bottom: 2px solid yellowgreen;
+  color: grey;
+}
+.btn:hover{
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+ .btn{
+  background: transparent;
+  border: 5px solid grey ;
+  font-size: 12px;
+  padding: 8px;
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: black;
+   background:rgb(255, 69, 100);
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+}
+.home{
+  display: flex;
+
+}
+.home .max-width{
+  width: 500%;
+  display: flex;
+}
+.home .home-content{
+  width: 1000%;
+  padding: 2rem;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+  </style>
+</head>
+<body>
+
+  <header style="
+  margin-top: 74px;
+" >
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio! I specialize in creating beautiful and functional web applications.</p>
+  </header>
+
+
+<header class="top">
+  <a href="#" class="logo">
+      <i class="fas fa-dumbbell"></i>PORTFOLIO
+  </a>
+  <nav class="navbar">
+      <a href="/home">Home</a>
+      <a href="/about">About</a>
+      <a href="/resume">Resume</a>
+      <a href="/services">Services</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact</a>
+
+  </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="project-info">
+      <div class="project-name">Project 1:<b><span class="span">GYM Web Application</b> </span>(02/2023)
+    </div>
+      <div class="project-description">
+        <li><span class="span">User Registration and Authentication:</span>
+
+          Allow users to create accounts and log in securely to access personalized features and data.
+          Implement password hashing and security measures to protect user data.</li>
+        <li><span class="span">Membership Management/Class Schedule and Booking:</span>
+
+          Provide options for users to choose from various membership plans and durations.
+          Display membership details, benefits, and pricing information clearly.
+          Display a schedule of classes or training sessions offered at the gym.
+          Enable users to book or reserve spots in their preferred classes.</li>
+        <li><span class="span">Payment Integration:</span>
+
+          Integrate a secure payment gateway to handle membership fees and class/trainer bookings.
+          Support various payment methods for user convenience.</li>
+        <li><span class="span">Community and Social Interaction:</span>
+
+          Implement social features like user profiles, follow options, and a feed where users can share fitness achievements or experiences.
+          Foster a sense of community and motivation among gym members.</li>
+      </div>
+    </div>
+    <div class="project-info">
+     <div class="project-name">Project 2: <span class="span"><b>Simplified payroll software for every business in India</b></span>
+        (present) </div>
+      <div class="project-description">
+        <ul>
+            <li><span class="span">Automated Attendance Collection:</span>
+
+              Our software streamlines attendance tracking by seamlessly integrating with attendance machines, reducing manual efforts and errors.</li>
+            <li><span class="span">Auto Salary Generation:</span>
+
+              At the end of each month, our software automatically generates accurate and timely salary payments for employees, ensuring efficiency and reliability.</li>
+            <li><span class="span">Points Extension:</span>
+
+              Furthermore, we continuously extend and enhance the software's capabilities, adding new features and improvements based on customer feedback and evolving industry needs.</li>
+          </ul>
+      </div>
+    </div>
+    <div class="project-info">
+        <div class="project-name">Project 3:<span class="span"><b> Crude Operation</span>
+           (05/2023) </div>
+         <div class="project-description">
+           <ul>
+               <li>#</li>
+               <li>#</li>
+               <li>#</li>
+             </ul>
+         </div>
+       </div>
+
+       <div class="project-info">
+        <div class="project-name">Project 4:<span class="span"><b>  My Portfolio</b></span>
+           (7-2023) </div>
+         <div class="project-description">
+           <ul>
+               <li><span class="span">Design and Layout:</span> Keep the design clean, professional, and easy to navigate.
+                Use a consistent color scheme and typography to maintain visual coherence.
+                Organize content into logical sections, such as Home, About, Portfolio, Contact, etc.</li>
+               <li><span class="span">Responsive Design:</span>
+
+                Ensure your website is responsive and displays well on various devices, including desktops, tablets, and smartphones.</li>
+               <li><span class="span">Database Connectivity:</span>
+
+                Django supports various databases, including PostgreSQL, MySQL, SQLite, and Oracle, allowing you to choose the one that best fits your needs.
+                It provides an Object-Relational Mapping (ORM) layer, allowing you to interact with the database using Python classes and methods instead of writing raw SQL queries.
+                The ORM handles tasks like data retrieval, insertion, updating, and deletion, making database connectivity easier and more abstracted.</li>
+
+                <li><span class="span">User Interface (UI):</span>By combining Django, CSS, HTML, database connectivity, and a well-designed user interface, you can develop powerful web applications with efficient data management and an attractive user experience.</li>
+
+              </ul>
+         </div>
+       </div>
+
+    <div class="github-link">
+      <a href="github.com/1414avantika?tab=repositories" target="_blank">View All My Work on GitHub</a>
+    </div>
+    <div class="area" >
+      <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
+    </div >
+  </div>
+  </table>
+</body>
+</html>
